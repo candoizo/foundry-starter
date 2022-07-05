@@ -1,2 +1,7 @@
 cache/
 out/
+node_modules/
+yarn.lock
+*.log
+*.bak
+*.secret

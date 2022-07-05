@@ -1,0 +1,18 @@
+{
+  "name": "foundry-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/candoizo/foundry-starter.git",
+  "author": "candoizo",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.7",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "scripts": {
+    "lint": "prettier --list-different {src,test,script}/**/*.sol",
+    "coverage": "forge coverage --report lcov"
+  }
+}
